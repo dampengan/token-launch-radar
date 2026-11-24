@@ -76,7 +76,7 @@ tests/verify.mjs         Determinism + board-rule + dossier + screenshot checks
 
 ## Gaps to close before submission
 
-- **Screenshots are not taken yet.** No browser was available in the build environment. Capture the three required shots on a machine with a browser — instructions in `screenshots/README.md`. `main.ts` refuses to write a dossier with fewer than three screenshots.
+- **Screenshots are taken.** The three required shots are in `screenshots/` (1280×800 PNG, captured with Playwright Chromium, viewport 1280×800, 1× scale). The filtered view uses `#/board?category=Risk%20Curators&minScore=50` (6 rows); the earlier `Lending&minScore=60` example would show no rows. Details in `screenshots/README.md`.
 - **GitHub About: set.** The repository was created after 14 Nov 2026 10:00 UTC, and its About is set (homepage `https://make.fun/bounty/token-radar-01`, topics `makefun`, `ai-agents`, `bounties`, `trading`). Submission itself (repo URL, commit SHA, title, transcript bundle, wallet signature) is a parent-side step.
 
 ## Disclaimer
