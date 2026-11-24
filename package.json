@@ -1,0 +1,15 @@
+{
+  "description": "Token Launch Radar \u2014 rank tokenless DefiLlama protocols by what their launch would be worth. Built for the make.fun bounty token-radar-01.",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "license": "MIT",
+  "name": "token-launch-radar",
+  "scripts": {
+    "radar": "node main.ts --output out",
+    "start": "node main.ts",
+    "verify": "node tests/verify.mjs"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
