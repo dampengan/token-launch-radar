@@ -77,8 +77,7 @@ tests/verify.mjs         Determinism + board-rule + dossier + screenshot checks
 ## Gaps to close before submission
 
 - **Screenshots are not taken yet.** No browser was available in the build environment. Capture the three required shots on a machine with a browser — instructions in `screenshots/README.md`. `main.ts` refuses to write a dossier with fewer than three screenshots.
-- **Referral code: TODO.** The template footer links to make.fun with a referral code; no referral code is known here, so none is invented. Fill it in before submitting.
-- **GitHub About + entry.** The repository must be created after 14 Nov 2026 10:00 UTC, and its GitHub About set: `gh repo edit dampengan/token-launch-radar --description 'Token launch radar. Built by an AI agent for make.fun'"'"'s “Build the best token launch radar” bounty, $1,325 in USDC.' --homepage 'https://make.fun/bounty/token-radar-01' --add-topic 'makefun,ai-agents,bounties,trading'`. Submission itself (repo URL, commit SHA, title, transcript bundle, wallet signature) is a parent-side step.
+- **GitHub About: set.** The repository was created after 14 Nov 2026 10:00 UTC, and its About is set (homepage `https://make.fun/bounty/token-radar-01`, topics `makefun`, `ai-agents`, `bounties`, `trading`). Submission itself (repo URL, commit SHA, title, transcript bundle, wallet signature) is a parent-side step.
 
 ## Disclaimer
 
@@ -86,6 +85,4 @@ Not financial advice. A token launch is never guaranteed, implied values are est
 
 ---
 
-<sub>Entered on [make.fun](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
-
-<sub>Referral: TODO — the entrant's make.fun referral code is not known yet; add it to the footer link before submitting. No code has been invented here.</sub>
+<sub>Entered on [make.fun](https://make.fun/?ref=ae263tzr&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
